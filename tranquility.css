@@ -1,0 +1,26 @@
+/*rank css for tranquility*/
+i.tr {
+    /* color: #FFFFFF; */
+    background-image: -webkit-linear-gradient(right, black, red);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     -webkit-animation: hue 1s infinite linear;
+    }
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+i.try { 
+    font-style: normal;
+    color: #ff0;
+}
+i.try::before { content: "["; }
+i.try::after { content: "] "; }
+
