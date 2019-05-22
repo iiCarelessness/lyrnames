@@ -1,10 +1,10 @@
 /*rank css for tranquility*/
 i.tr {
-    /* color: #FFFFFF; */
+    /* color: #000000; */
     background-image: -webkit-linear-gradient(right, orange , yellow, green, cyan, blue, violet);
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
-     -webkit-animation: hue 1s infinite linear;
+     -webkit-animation: hue 15s infinite linear;
     }
 
 @-webkit-keyframes hue {
@@ -19,7 +19,7 @@ i.tr {
 
 i.try { 
     font-style: normal;
-    color: #ff0;
+    color: #000;
 }
 i.try::before { content: "["; }
 i.try::after { content: "] "; }
